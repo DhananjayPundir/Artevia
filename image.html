@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="image.css">
+<head>
+<body>
+    <nav class="navbar">
+        <img src="Artevia.png" alt="Artevia Logo" class="logo">
+    </nav>
+    <header>
+        <form action="">
+            <div class="search-container">
+                <input type="text" placeholder="Search images..." class="search-input">
+                <button type="submit" class="search-button">
+                    <span class="material-icons">search</span>
+                    Search
+                </button>
+            </div>
+        </form>
+    </header>
+    <main>
+        <section>
+            <div class="image-container">
+                <div class="no-results">
+                    <h2>No Images Found</h2>
+                    <p>Try searching for something else</p>
+                </div>
+            </div>
+            <button class="loadmoreBtn">Load more</button>
+        </section>
+    </main>
+    <script src="image.js"></script>
+</body>
+</html>
